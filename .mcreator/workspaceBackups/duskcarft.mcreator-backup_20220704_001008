@@ -39,14 +39,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_duskorite"
-    },
-    {
-      "name": "Craft1",
-      "type": "recipe",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "craft_1"
     }
   ],
   "variable_elements": [],
