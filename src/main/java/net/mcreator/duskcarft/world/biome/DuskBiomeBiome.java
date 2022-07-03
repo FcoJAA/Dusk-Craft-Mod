@@ -36,8 +36,8 @@ import net.minecraft.core.particles.ParticleTypes;
 import java.util.List;
 
 public class DuskBiomeBiome {
-	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(-0.714285714286f, 0.714285714286f),
-			Climate.Parameter.span(-0.114285714286f, 1.314285714286f), Climate.Parameter.span(-0.204285714286f, 1.224285714286f),
+	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(-0.780952380952f, 0.64761904762f),
+			Climate.Parameter.span(0.085714285714f, 1.514285714286f), Climate.Parameter.span(-0.204285714286f, 1.224285714286f),
 			Climate.Parameter.span(0.085714285714f, 1.514285714286f), Climate.Parameter.point(0),
 			Climate.Parameter.span(0.07520954389f, 1.503780972462f), 0);
 
@@ -45,12 +45,12 @@ public class DuskBiomeBiome {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-13434829).waterColor(-16764109).waterFogColor(329011)
 				.skyColor(-13434829).foliageColorOverride(-13421773).grassColorOverride(-13421773)
 				.backgroundMusic(new Music(new SoundEvent(new ResourceLocation("ambient.soul_sand_valley.additions")), 12000, 24000, true))
-				.ambientParticle(new AmbientParticleSettings(ParticleTypes.MYCELIUM, 0.01f)).build();
+				.ambientParticle(new AmbientParticleSettings(ParticleTypes.MYCELIUM, 0.02f)).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, PlacementUtils.register("duskcarft:tree_dusk_biome",
 				FeatureUtils.register("duskcarft:tree_dusk_biome", Feature.TREE,
-						new TreeConfiguration.TreeConfigurationBuilder(BlockStateProvider.simple(Blocks.DARK_OAK_WOOD.defaultBlockState()),
-								new StraightTrunkPlacer(6, 2, 0), BlockStateProvider.simple(Blocks.SPRUCE_LEAVES.defaultBlockState()),
+						new TreeConfiguration.TreeConfigurationBuilder(BlockStateProvider.simple(Blocks.OAK_LOG.defaultBlockState()),
+								new StraightTrunkPlacer(4, 2, 0), BlockStateProvider.simple(Blocks.OAK_LEAVES.defaultBlockState()),
 								new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3), new TwoLayersFeatureSize(1, 0, 1)).ignoreVines()
 								.build()),
 				List.of(CountPlacement.of(5), InSquarePlacement.spread(), SurfaceWaterDepthFilter.forMaxDepth(0),
@@ -60,22 +60,23 @@ public class DuskBiomeBiome {
 						List.of(NoiseThresholdCountPlacement.of(-0.8D, 5, 5), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_WORLD_SURFACE,
 								BiomeFilter.biome())));
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
-				PlacementUtils.register("duskcarft:flower_dusk_biome", VegetationFeatures.FLOWER_DEFAULT, List.of(CountPlacement.of(1),
-						RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
-		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 				PlacementUtils.register("duskcarft:brown_mushroom_dusk_biome", VegetationFeatures.PATCH_BROWN_MUSHROOM, List.of(CountPlacement.of(1),
 						RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 				PlacementUtils.register("duskcarft:red_mushroom_dusk_biome", VegetationFeatures.PATCH_RED_MUSHROOM, List.of(CountPlacement.of(1),
 						RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
+		BiomeDefaultFeatures.addSavannaGrass(biomeGenerationSettings);
 		BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeGenerationSettings);
 		BiomeDefaultFeatures.addDefaultOres(biomeGenerationSettings);
 		BiomeDefaultFeatures.addSurfaceFreezing(biomeGenerationSettings);
+		BiomeDefaultFeatures.addDefaultMonsterRoom(biomeGenerationSettings);
+		BiomeDefaultFeatures.addDefaultExtraVegetation(biomeGenerationSettings);
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder();
 		mobSpawnInfo.addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(EntityType.SHULKER, 1, 1, 1));
-		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).biomeCategory(Biome.BiomeCategory.NONE).temperature(0.5f)
-				.downfall(0.7999999999999999f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build())
-				.generationSettings(biomeGenerationSettings.build()).build();
+		mobSpawnInfo.addSpawn(MobCategory.AMBIENT, new MobSpawnSettings.SpawnerData(EntityType.CAVE_SPIDER, 20, 4, 4));
+		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).biomeCategory(Biome.BiomeCategory.NONE).temperature(0.4f)
+				.downfall(0.9f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build())
+				.build();
 	}
 
 	public static void init() {
