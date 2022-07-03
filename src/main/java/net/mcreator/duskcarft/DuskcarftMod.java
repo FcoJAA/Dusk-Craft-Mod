@@ -26,6 +26,10 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.duskcarft.init.DuskcarftModTabs;
+import net.mcreator.duskcarft.init.DuskcarftModItems;
+import net.mcreator.duskcarft.init.DuskcarftModFeatures;
+import net.mcreator.duskcarft.init.DuskcarftModBlocks;
 import net.mcreator.duskcarft.init.DuskcarftModBiomes;
 
 import java.util.function.Supplier;
@@ -42,8 +46,12 @@ public class DuskcarftMod {
 	private static int messageID = 0;
 
 	public DuskcarftMod() {
-
+		DuskcarftModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		DuskcarftModBlocks.REGISTRY.register(bus);
+		DuskcarftModItems.REGISTRY.register(bus);
+
+		DuskcarftModFeatures.REGISTRY.register(bus);
 
 		DuskcarftModBiomes.REGISTRY.register(bus);
 
