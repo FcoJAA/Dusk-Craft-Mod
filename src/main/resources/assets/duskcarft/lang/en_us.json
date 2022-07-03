@@ -1,5 +1,7 @@
 {
   "itemGroup.tabdusk_craft": "Dusk Craft",
+  "item.duskcarft.duskorite": "Duskorite",
   "biome.duskcarft.dusk_biome": "Dusk Biome",
-  "block.duskcarft.duskorite_ore": "Duskorite Ore"
+  "block.duskcarft.duskorite_ore": "Duskorite Ore",
+  "block.duskcarft.block_duskorite": "Block Duskorite"
 }

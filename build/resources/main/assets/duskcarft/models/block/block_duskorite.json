@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "duskcarft:blocks/block_duskorite",
+    "up": "duskcarft:blocks/block_duskorite",
+    "north": "duskcarft:blocks/block_duskorite",
+    "east": "duskcarft:blocks/block_duskorite",
+    "south": "duskcarft:blocks/block_duskorite",
+    "west": "duskcarft:blocks/block_duskorite",
+    "particle": "duskcarft:blocks/block_duskorite"
+  }
+}

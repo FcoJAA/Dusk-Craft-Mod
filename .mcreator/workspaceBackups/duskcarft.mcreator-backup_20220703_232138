@@ -7,13 +7,31 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dusk_biome"
+    },
+    {
+      "name": "DuskoriteOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duskorite_ore"
+    },
+    {
+      "name": "DuskCraft",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dusk_craft"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "biome.duskcarft.dusk_biome": "Dusk Biome"
+      "itemGroup.tabdusk_craft": "Dusk Craft",
+      "biome.duskcarft.dusk_biome": "Dusk Biome",
+      "block.duskcarft.duskorite_ore": "Duskorite Ore"
     }
   },
   "foldersRoot": {

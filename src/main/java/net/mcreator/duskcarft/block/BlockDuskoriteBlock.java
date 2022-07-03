@@ -19,15 +19,15 @@ import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.duskcarft.init.DuskcarftModItems;
+import net.mcreator.duskcarft.init.DuskcarftModBlocks;
 
 import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-public class DuskoriteOreBlock extends Block {
-	public DuskoriteOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).requiresCorrectToolForDrops());
+public class BlockDuskoriteBlock extends Block {
+	public BlockDuskoriteBlock() {
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(1f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -47,7 +47,7 @@ public class DuskoriteOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(DuskcarftModItems.DUSKORITE.get(), 3));
+		return Collections.singletonList(new ItemStack(DuskcarftModBlocks.BLOCK_DUSKORITE.get()));
 	}
 
 	@OnlyIn(Dist.CLIENT)
@@ -62,10 +62,10 @@ public class DuskoriteOreBlock extends Block {
 			double x0 = x + random.nextFloat();
 			double y0 = y + random.nextFloat();
 			double z0 = z + random.nextFloat();
-			double dx = (random.nextFloat() - 0.5D) * 0.7D;
-			double dy = (random.nextFloat() - 0.5D) * 0.7D;
-			double dz = (random.nextFloat() - 0.5D) * 0.7D;
-			world.addParticle(ParticleTypes.MYCELIUM, x0, y0, z0, dx, dy, dz);
+			double dx = (random.nextFloat() - 0.5D) * 0.7000000000000001D;
+			double dy = (random.nextFloat() - 0.5D) * 0.7000000000000001D;
+			double dz = (random.nextFloat() - 0.5D) * 0.7000000000000001D;
+			world.addParticle(ParticleTypes.PORTAL, x0, y0, z0, dx, dy, dz);
 		}
 	}
 }

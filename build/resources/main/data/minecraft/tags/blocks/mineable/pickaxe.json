@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "duskcarft:duskorite_ore"
+    "duskcarft:duskorite_ore",
+    "duskcarft:block_duskorite"
   ]
 }
