@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "duskoriteshovel",
+    "customModelName": "Normal",
+    "name": "Duskorite Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:DuskCraft"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 8,
+    "efficiency": 12.0,
+    "attackSpeed": 1.0,
+    "enchantability": 10,
+    "damageVsEntity": 4.0,
+    "usageCount": 1200,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Duskorite"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

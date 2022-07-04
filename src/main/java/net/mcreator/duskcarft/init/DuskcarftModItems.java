@@ -14,6 +14,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.duskcarft.item.DuskoriteSwordItem;
+import net.mcreator.duskcarft.item.DuskoriteShovelItem;
 import net.mcreator.duskcarft.item.DuskoriteItem;
 import net.mcreator.duskcarft.item.DuskoriteHoeItem;
 import net.mcreator.duskcarft.item.DuskoriteAxeItem;
@@ -29,6 +30,7 @@ public class DuskcarftModItems {
 	public static final RegistryObject<Item> DUSKORIRE_PICKAXE = REGISTRY.register("duskorire_pickaxe", () -> new DuskorirePickaxeItem());
 	public static final RegistryObject<Item> DUSKORITE_AXE = REGISTRY.register("duskorite_axe", () -> new DuskoriteAxeItem());
 	public static final RegistryObject<Item> DUSKORITE_HOE = REGISTRY.register("duskorite_hoe", () -> new DuskoriteHoeItem());
+	public static final RegistryObject<Item> DUSKORITE_SHOVEL = REGISTRY.register("duskorite_shovel", () -> new DuskoriteShovelItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
