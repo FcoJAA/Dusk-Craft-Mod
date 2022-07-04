@@ -87,6 +87,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "duskorite_axe"
+    },
+    {
+      "name": "Craft4",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_4"
     }
   ],
   "variable_elements": [],
