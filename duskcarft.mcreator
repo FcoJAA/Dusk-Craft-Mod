@@ -47,6 +47,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_1"
+    },
+    {
+      "name": "DuskoriteSword",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duskorite_sword"
     }
   ],
   "variable_elements": [],
@@ -54,6 +62,7 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabdusk_craft": "Dusk Craft",
+      "item.duskcarft.duskorite_sword": "Duskorite Sword",
       "item.duskcarft.duskorite": "Duskorite",
       "biome.duskcarft.dusk_biome": "Dusk Biome",
       "block.duskcarft.duskorite_ore": "Duskorite Ore",

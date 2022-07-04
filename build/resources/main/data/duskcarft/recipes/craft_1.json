@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "duskcarft:duskorite"
+    },
+    "1": {
+      "item": "duskcarft:duskorite"
+    },
+    "2": {
+      "item": "duskcarft:duskorite"
+    },
+    "3": {
+      "item": "duskcarft:duskorite"
+    },
+    "4": {
+      "item": "minecraft:nether_brick"
+    },
+    "5": {
+      "item": "duskcarft:duskorite"
+    },
+    "6": {
+      "item": "duskcarft:duskorite"
+    },
+    "7": {
+      "item": "duskcarft:duskorite"
+    },
+    "8": {
+      "item": "duskcarft:duskorite"
+    }
+  },
+  "result": {
+    "item": "duskcarft:block_duskorite",
+    "count": 1
+  }
+}

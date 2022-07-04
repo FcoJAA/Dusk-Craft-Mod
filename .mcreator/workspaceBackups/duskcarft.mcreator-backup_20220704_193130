@@ -1,0 +1,85 @@
+{
+  "mod_elements": [
+    {
+      "name": "DuskBiome",
+      "type": "biome",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dusk_biome"
+    },
+    {
+      "name": "DuskoriteOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duskorite_ore"
+    },
+    {
+      "name": "DuskCraft",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dusk_craft"
+    },
+    {
+      "name": "Duskorite",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duskorite"
+    },
+    {
+      "name": "BlockDuskorite",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_duskorite"
+    },
+    {
+      "name": "Craft1",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_1"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabdusk_craft": "Dusk Craft",
+      "item.duskcarft.duskorite": "Duskorite",
+      "biome.duskcarft.dusk_biome": "Dusk Biome",
+      "block.duskcarft.duskorite_ore": "Duskorite Ore",
+      "block.duskcarft.block_duskorite": "Block Duskorite"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "duskcarft",
+    "modName": "Dusk-Carft",
+    "version": "1.0.0",
+    "author": "Usuario, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.duskcarft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}
