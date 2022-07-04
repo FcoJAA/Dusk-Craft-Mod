@@ -143,6 +143,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fungus_mob"
+    },
+    {
+      "name": "Craft7",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_7"
     }
   ],
   "variable_elements": [],
