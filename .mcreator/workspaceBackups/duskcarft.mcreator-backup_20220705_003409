@@ -1,0 +1,210 @@
+{
+  "mod_elements": [
+    {
+      "name": "DuskBiome",
+      "type": "biome",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dusk_biome"
+    },
+    {
+      "name": "DuskoriteOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duskorite_ore"
+    },
+    {
+      "name": "DuskCraft",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dusk_craft"
+    },
+    {
+      "name": "Duskorite",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duskorite"
+    },
+    {
+      "name": "BlockDuskorite",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_duskorite"
+    },
+    {
+      "name": "Craft1",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_1"
+    },
+    {
+      "name": "DuskoriteSword",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duskorite_sword"
+    },
+    {
+      "name": "Craft2",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_2"
+    },
+    {
+      "name": "DuskorirePickaxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duskorire_pickaxe"
+    },
+    {
+      "name": "Craft3",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_3"
+    },
+    {
+      "name": "DuskoriteAxe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duskorite_axe"
+    },
+    {
+      "name": "Craft4",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_4"
+    },
+    {
+      "name": "DuskoriteHoe",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duskorite_hoe"
+    },
+    {
+      "name": "Craft5",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_5"
+    },
+    {
+      "name": "DuskoriteShovel",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duskorite_shovel"
+    },
+    {
+      "name": "Craft6",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_6"
+    },
+    {
+      "name": "Discmusic1",
+      "type": "musicdisc",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "discmusic_1"
+    },
+    {
+      "name": "Duende",
+      "type": "livingentity",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duende"
+    },
+    {
+      "name": "FungusMob",
+      "type": "livingentity",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fungus_mob"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "duskmusic1",
+      "files": [
+        "beware_the_monster"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.duskcarft.discmusic_1.desc": "...",
+      "item.duskcarft.discmusic_1": "Dusk-001",
+      "subtitles.duskmusic1": "",
+      "item.duskcarft.duende_spawn_egg": "Pantalon Spawn Egg",
+      "item.duskcarft.fungus_mob_spawn_egg": "Pantalon Spawn Egg",
+      "item.duskcarft.duskorite_sword": "Duskorite Sword",
+      "item.duskcarft.duskorite_hoe": "Duskorite Hoe",
+      "item.duskcarft.duskorite_shovel": "Duskorite Shovel",
+      "block.duskcarft.duskorite_ore": "Duskorite Ore",
+      "block.duskcarft.block_duskorite": "Block Duskorite",
+      "item.duskcarft.duskorire_pickaxe": "Duskorire Pickaxe",
+      "itemGroup.tabdusk_craft": "Dusk Craft",
+      "entity.duskcarft.duende": "Pantalon",
+      "item.duskcarft.duskorite": "Duskorite",
+      "entity.duskcarft.fungus_mob": "Pantalon",
+      "item.duskcarft.duskorite_axe": "Duskorite Axe",
+      "biome.duskcarft.dusk_biome": "Dusk Biome"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "duskcarft",
+    "modName": "Dusk-Carft",
+    "version": "1.0.0",
+    "author": "Usuario, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.duskcarft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

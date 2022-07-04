@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "duskmusic1",
+    "name": "Dusk-001",
+    "description": "...",
+    "creativeTab": {
+      "value": "CUSTOM:DuskCraft"
+    },
+    "music": {
+      "value": "CUSTOM:duskmusic1"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

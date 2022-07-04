@@ -1,0 +1,11 @@
+{
+  "duskmusic1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "duskcarft:beware_the_monster",
+        "stream": true
+      }
+    ]
+  }
+}

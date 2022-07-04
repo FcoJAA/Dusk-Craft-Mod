@@ -4,7 +4,7 @@
   "definition": {
     "name": "Dusk Craft",
     "icon": {
-      "value": "Blocks.MYCELIUM"
+      "value": "CUSTOM:DuskoriteSword"
     },
     "showSearch": false
   }

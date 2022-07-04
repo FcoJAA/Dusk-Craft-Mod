@@ -7,7 +7,6 @@ package net.mcreator.duskcarft.init;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 
@@ -18,7 +17,7 @@ public class DuskcarftModTabs {
 		TAB_DUSK_CRAFT = new CreativeModeTab("tabdusk_craft") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(Blocks.MYCELIUM);
+				return new ItemStack(DuskcarftModItems.DUSKORITE_SWORD.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)

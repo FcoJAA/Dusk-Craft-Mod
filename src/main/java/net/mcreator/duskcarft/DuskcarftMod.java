@@ -29,6 +29,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.duskcarft.init.DuskcarftModTabs;
 import net.mcreator.duskcarft.init.DuskcarftModItems;
 import net.mcreator.duskcarft.init.DuskcarftModFeatures;
+import net.mcreator.duskcarft.init.DuskcarftModEntities;
 import net.mcreator.duskcarft.init.DuskcarftModBlocks;
 import net.mcreator.duskcarft.init.DuskcarftModBiomes;
 
@@ -50,6 +51,7 @@ public class DuskcarftMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		DuskcarftModBlocks.REGISTRY.register(bus);
 		DuskcarftModItems.REGISTRY.register(bus);
+		DuskcarftModEntities.REGISTRY.register(bus);
 
 		DuskcarftModFeatures.REGISTRY.register(bus);
 

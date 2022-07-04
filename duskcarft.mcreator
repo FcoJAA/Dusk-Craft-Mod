@@ -127,22 +127,52 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_6"
+    },
+    {
+      "name": "Discmusic1",
+      "type": "musicdisc",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "discmusic_1"
+    },
+    {
+      "name": "FungusMob",
+      "type": "livingentity",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fungus_mob"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "duskmusic1",
+      "files": [
+        "beware_the_monster"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
-      "item.duskcarft.duskorire_pickaxe": "Duskorire Pickaxe",
-      "itemGroup.tabdusk_craft": "Dusk Craft",
+      "item.duskcarft.discmusic_1.desc": "...",
+      "item.duskcarft.discmusic_1": "Dusk-001",
+      "subtitles.duskmusic1": "",
+      "item.duskcarft.fungus_mob_spawn_egg": "Pantalon Spawn Egg",
       "item.duskcarft.duskorite_sword": "Duskorite Sword",
-      "item.duskcarft.duskorite": "Duskorite",
-      "item.duskcarft.duskorite_axe": "Duskorite Axe",
       "item.duskcarft.duskorite_hoe": "Duskorite Hoe",
       "item.duskcarft.duskorite_shovel": "Duskorite Shovel",
-      "biome.duskcarft.dusk_biome": "Dusk Biome",
       "block.duskcarft.duskorite_ore": "Duskorite Ore",
-      "block.duskcarft.block_duskorite": "Block Duskorite"
+      "block.duskcarft.block_duskorite": "Block Duskorite",
+      "item.duskcarft.duskorire_pickaxe": "Duskorire Pickaxe",
+      "itemGroup.tabdusk_craft": "Dusk Craft",
+      "item.duskcarft.duskorite": "Duskorite",
+      "entity.duskcarft.fungus_mob": "Pantalon",
+      "item.duskcarft.duskorite_axe": "Duskorite Axe",
+      "biome.duskcarft.dusk_biome": "Dusk Biome"
     }
   },
   "foldersRoot": {

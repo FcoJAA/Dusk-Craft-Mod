@@ -127,6 +127,15 @@
         "maxGroup": 4,
         "weight": 20,
         "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:FungusMob"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 19,
+        "spawnType": "creature"
       }
     ]
   }
