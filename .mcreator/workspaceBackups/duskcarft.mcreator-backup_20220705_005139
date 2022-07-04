@@ -137,12 +137,12 @@
       "registry_name": "discmusic_1"
     },
     {
-      "name": "Duende",
+      "name": "FungusMob",
       "type": "livingentity",
-      "sortid": 18,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "duende"
+      "registry_name": "fungus_mob"
     }
   ],
   "variable_elements": [],
@@ -161,7 +161,7 @@
       "item.duskcarft.discmusic_1.desc": "...",
       "item.duskcarft.discmusic_1": "Dusk-001",
       "subtitles.duskmusic1": "",
-      "item.duskcarft.duende_spawn_egg": "Duende Spawn Egg",
+      "item.duskcarft.fungus_mob_spawn_egg": "Pantalon Spawn Egg",
       "item.duskcarft.duskorite_sword": "Duskorite Sword",
       "item.duskcarft.duskorite_hoe": "Duskorite Hoe",
       "item.duskcarft.duskorite_shovel": "Duskorite Shovel",
@@ -169,8 +169,8 @@
       "block.duskcarft.block_duskorite": "Block Duskorite",
       "item.duskcarft.duskorire_pickaxe": "Duskorire Pickaxe",
       "itemGroup.tabdusk_craft": "Dusk Craft",
-      "entity.duskcarft.duende": "Duende",
       "item.duskcarft.duskorite": "Duskorite",
+      "entity.duskcarft.fungus_mob": "Pantalon",
       "item.duskcarft.duskorite_axe": "Duskorite Axe",
       "biome.duskcarft.dusk_biome": "Dusk Biome"
     }

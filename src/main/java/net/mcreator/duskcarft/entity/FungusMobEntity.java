@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
 
 import net.minecraft.world.level.levelgen.Heightmap;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
@@ -33,7 +34,6 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
-import net.mcreator.duskcarft.init.DuskcarftModItems;
 import net.mcreator.duskcarft.init.DuskcarftModEntities;
 
 import java.util.Set;
@@ -86,7 +86,7 @@ public class FungusMobEntity extends Monster {
 
 	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
 		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		this.spawnAtLocation(new ItemStack(DuskcarftModItems.DISCMUSIC_1.get()));
+		this.spawnAtLocation(new ItemStack(Blocks.MUSHROOM_STEM));
 	}
 
 	@Override

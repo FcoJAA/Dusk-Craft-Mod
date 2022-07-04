@@ -77,7 +77,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "CUSTOM:Discmusic1"
+      "value": "Blocks.MUSHROOM_STEM"
     },
     "livingSound": {
       "value": ""
