@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "duskoriteaxe",
+    "customModelName": "Normal",
+    "name": "Duskorite Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:DuskCraft"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 3,
+    "efficiency": 4.0,
+    "attackSpeed": 0.5,
+    "enchantability": 9,
+    "damageVsEntity": 8.0,
+    "usageCount": 1300,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Duskorite"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

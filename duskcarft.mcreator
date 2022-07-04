@@ -71,6 +71,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "duskorire_pickaxe"
+    },
+    {
+      "name": "Craft3",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_3"
+    },
+    {
+      "name": "DuskoriteAxe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duskorite_axe"
     }
   ],
   "variable_elements": [],
@@ -81,6 +97,7 @@
       "itemGroup.tabdusk_craft": "Dusk Craft",
       "item.duskcarft.duskorite_sword": "Duskorite Sword",
       "item.duskcarft.duskorite": "Duskorite",
+      "item.duskcarft.duskorite_axe": "Duskorite Axe",
       "biome.duskcarft.dusk_biome": "Dusk Biome",
       "block.duskcarft.duskorite_ore": "Duskorite Ore",
       "block.duskcarft.block_duskorite": "Block Duskorite"

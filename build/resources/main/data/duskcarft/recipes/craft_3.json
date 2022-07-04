@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 45",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "duskcarft:duskorite"
+    },
+    "1": {
+      "item": "duskcarft:duskorite"
+    },
+    "2": {
+      "item": "minecraft:nether_brick"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "duskcarft:duskorite"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    },
+    "8": {
+      "item": "duskcarft:duskorite"
+    }
+  },
+  "result": {
+    "item": "duskcarft:duskorire_pickaxe",
+    "count": 1
+  }
+}
