@@ -55,12 +55,29 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "duskorite_sword"
+    },
+    {
+      "name": "Craft2",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_2"
+    },
+    {
+      "name": "DuskorirePickaxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duskorire_pickaxe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.duskcarft.duskorire_pickaxe": "Duskorire Pickaxe",
       "itemGroup.tabdusk_craft": "Dusk Craft",
       "item.duskcarft.duskorite_sword": "Duskorite Sword",
       "item.duskcarft.duskorite": "Duskorite",

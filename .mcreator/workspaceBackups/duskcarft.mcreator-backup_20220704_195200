@@ -23,6 +23,46 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dusk_craft"
+    },
+    {
+      "name": "Duskorite",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duskorite"
+    },
+    {
+      "name": "BlockDuskorite",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_duskorite"
+    },
+    {
+      "name": "Craft1",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_1"
+    },
+    {
+      "name": "DuskoriteSword",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duskorite_sword"
+    },
+    {
+      "name": "Craft2",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_2"
     }
   ],
   "variable_elements": [],
@@ -30,8 +70,11 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabdusk_craft": "Dusk Craft",
+      "item.duskcarft.duskorite_sword": "Duskorite Sword",
+      "item.duskcarft.duskorite": "Duskorite",
       "biome.duskcarft.dusk_biome": "Dusk Biome",
-      "block.duskcarft.duskorite_ore": "Duskorite Ore"
+      "block.duskcarft.duskorite_ore": "Duskorite Ore",
+      "block.duskcarft.block_duskorite": "Block Duskorite"
     }
   },
   "foldersRoot": {
