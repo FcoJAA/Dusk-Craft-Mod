@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "duskcarft:duskorite"
+    },
+    "1": {
+      "item": "duskcarft:duskorite"
+    },
+    "3": {
+      "item": "duskcarft:duskorite"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "duskcarft:duskorite"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "duskcarft:duskorite_axe",
+    "count": 1
+  }
+}

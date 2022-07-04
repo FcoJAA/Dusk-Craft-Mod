@@ -39,14 +39,73 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_duskorite"
+    },
+    {
+      "name": "Craft1",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_1"
+    },
+    {
+      "name": "DuskoriteSword",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duskorite_sword"
+    },
+    {
+      "name": "Craft2",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_2"
+    },
+    {
+      "name": "DuskorirePickaxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duskorire_pickaxe"
+    },
+    {
+      "name": "Craft3",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_3"
+    },
+    {
+      "name": "DuskoriteAxe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duskorite_axe"
+    },
+    {
+      "name": "Craft4",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_4"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.duskcarft.duskorire_pickaxe": "Duskorire Pickaxe",
       "itemGroup.tabdusk_craft": "Dusk Craft",
+      "item.duskcarft.duskorite_sword": "Duskorite Sword",
       "item.duskcarft.duskorite": "Duskorite",
+      "item.duskcarft.duskorite_axe": "Duskorite Axe",
       "biome.duskcarft.dusk_biome": "Dusk Biome",
       "block.duskcarft.duskorite_ore": "Duskorite Ore",
       "block.duskcarft.block_duskorite": "Block Duskorite"
