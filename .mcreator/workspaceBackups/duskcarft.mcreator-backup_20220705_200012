@@ -190,8 +190,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.duskcarft.discmusic_1.desc": "...",
       "item.duskcarft.discmusic_1": "Dusk-001",
+      "item.duskcarft.discmusic_1.desc": "...",
       "subtitles.duskmusic1": "",
       "entity.duskcarft.wendigo": "Wendigo",
       "item.duskcarft.duskorite_sword": "Duskorite Sword",

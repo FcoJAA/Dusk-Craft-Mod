@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "duskcarft:blocks/garoniteore",
+    "up": "duskcarft:blocks/garoniteore",
+    "north": "duskcarft:blocks/garoniteore",
+    "east": "duskcarft:blocks/garoniteore",
+    "south": "duskcarft:blocks/garoniteore",
+    "west": "duskcarft:blocks/garoniteore",
+    "particle": "duskcarft:blocks/garoniteore"
+  }
+}

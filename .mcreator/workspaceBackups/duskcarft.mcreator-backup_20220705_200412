@@ -167,6 +167,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "GaroniteOre",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garonite_ore"
     }
   ],
   "variable_elements": [],
@@ -199,6 +207,7 @@
       "item.duskcarft.duskorite_shovel": "Duskorite Shovel",
       "block.duskcarft.duskorite_ore": "Duskorite Ore",
       "block.duskcarft.block_duskorite": "Block Duskorite",
+      "block.duskcarft.garonite_ore": "Duskorite Ore",
       "item.duskcarft.duskorire_pickaxe": "Duskorire Pickaxe",
       "itemGroup.tabdusk_craft": "Dusk Craft",
       "item.duskcarft.duskorite": "Duskorite",

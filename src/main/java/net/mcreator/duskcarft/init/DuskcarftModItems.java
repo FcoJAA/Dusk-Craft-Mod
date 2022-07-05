@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.duskcarft.item.GaroniteItem;
 import net.mcreator.duskcarft.item.DuskoriteSwordItem;
 import net.mcreator.duskcarft.item.DuskoriteShovelItem;
 import net.mcreator.duskcarft.item.DuskoriteItem;
@@ -37,6 +38,8 @@ public class DuskcarftModItems {
 	public static final RegistryObject<Item> WENDIGO = REGISTRY.register("wendigo_spawn_egg",
 			() -> new ForgeSpawnEggItem(DuskcarftModEntities.WENDIGO, -3355444, -13421824,
 					new Item.Properties().tab(DuskcarftModTabs.TAB_DUSK_CRAFT)));
+	public static final RegistryObject<Item> GARONITE_ORE = block(DuskcarftModBlocks.GARONITE_ORE, DuskcarftModTabs.TAB_DUSK_CRAFT);
+	public static final RegistryObject<Item> GARONITE = REGISTRY.register("garonite", () -> new GaroniteItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

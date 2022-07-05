@@ -17,6 +17,7 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
+import net.mcreator.duskcarft.world.features.ores.GaroniteOreFeature;
 import net.mcreator.duskcarft.world.features.ores.DuskoriteOreFeature;
 import net.mcreator.duskcarft.DuskcarftMod;
 
@@ -31,6 +32,8 @@ public class DuskcarftModFeatures {
 	private static final List<FeatureRegistration> FEATURE_REGISTRATIONS = new ArrayList<>();
 	public static final RegistryObject<Feature<?>> DUSKORITE_ORE = register("duskorite_ore", DuskoriteOreFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.UNDERGROUND_ORES, DuskoriteOreFeature.GENERATE_BIOMES, DuskoriteOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> GARONITE_ORE = register("garonite_ore", GaroniteOreFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.UNDERGROUND_ORES, GaroniteOreFeature.GENERATE_BIOMES, GaroniteOreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);
