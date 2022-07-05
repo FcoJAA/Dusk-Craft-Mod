@@ -19,6 +19,7 @@ public class DuskcarftModSounds {
 	public static Map<ResourceLocation, SoundEvent> REGISTRY = new HashMap<>();
 	static {
 		REGISTRY.put(new ResourceLocation("duskcarft", "duskmusic1"), new SoundEvent(new ResourceLocation("duskcarft", "duskmusic1")));
+		REGISTRY.put(new ResourceLocation("duskcarft", "wendigo_sound_1"), new SoundEvent(new ResourceLocation("duskcarft", "wendigo_sound_1")));
 	}
 
 	@SubscribeEvent

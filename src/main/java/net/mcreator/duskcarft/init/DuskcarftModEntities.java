@@ -26,7 +26,7 @@ public class DuskcarftModEntities {
 			EntityType.Builder.<WendigoEntity>of(WendigoEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(16)
 					.setUpdateInterval(3).setCustomClientFactory(WendigoEntity::new)
 
-					.sized(1f, 3f));
+					.sized(1f, 2.2f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

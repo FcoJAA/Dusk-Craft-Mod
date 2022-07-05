@@ -8,7 +8,7 @@
     "mobModelTexture": "wendigomob.png",
     "mobModelGlowTexture": "",
     "modelWidth": 1.0,
-    "modelHeight": 3.0,
+    "modelHeight": 2.2,
     "modelShadowSize": 1.0,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
@@ -80,10 +80,10 @@
       "value": "Items.SKULL#0"
     },
     "livingSound": {
-      "value": ""
+      "value": "CUSTOM:wendigo_sound_1"
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "CUSTOM:wendigo_sound_1"
     },
     "deathSound": {
       "value": "entity.generic.death"
