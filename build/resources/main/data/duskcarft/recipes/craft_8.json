@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "duskcarft:garonite"
+    },
+    "1": {
+      "item": "duskcarft:garonite"
+    },
+    "2": {
+      "item": "duskcarft:garonite"
+    },
+    "3": {
+      "item": "duskcarft:garonite"
+    },
+    "4": {
+      "item": "duskcarft:duskorite"
+    },
+    "5": {
+      "item": "duskcarft:garonite"
+    },
+    "6": {
+      "item": "duskcarft:garonite"
+    },
+    "7": {
+      "item": "duskcarft:garonite"
+    },
+    "8": {
+      "item": "duskcarft:garonite"
+    }
+  },
+  "result": {
+    "item": "duskcarft:block_garonite",
+    "count": 1
+  }
+}

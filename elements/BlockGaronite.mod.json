@@ -97,7 +97,7 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 2,
-    "spawnParticles": true,
+    "spawnParticles": false,
     "particleToSpawn": {
       "value": "PORTAL"
     },
