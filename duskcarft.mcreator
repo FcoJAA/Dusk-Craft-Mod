@@ -159,6 +159,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "wendigo"
+    },
+    {
+      "name": "WendigoEntityIsHurt",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wendigo_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],

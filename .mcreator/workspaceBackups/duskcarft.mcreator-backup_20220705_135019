@@ -151,6 +151,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_7"
+    },
+    {
+      "name": "Wendigo",
+      "type": "livingentity",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wendigo"
     }
   ],
   "variable_elements": [],
@@ -166,10 +174,11 @@
   ],
   "language_map": {
     "en_us": {
-      "item.duskcarft.discmusic_1.desc": "...",
       "item.duskcarft.discmusic_1": "Dusk-001",
+      "item.duskcarft.discmusic_1.desc": "...",
       "subtitles.duskmusic1": "",
-      "item.duskcarft.fungus_mob_spawn_egg": "Pantalon Spawn Egg",
+      "item.duskcarft.fungus_mob_spawn_egg": "Baby Fungus Spawn Egg",
+      "entity.duskcarft.wendigo": "Wendigo",
       "item.duskcarft.duskorite_sword": "Duskorite Sword",
       "item.duskcarft.duskorite_hoe": "Duskorite Hoe",
       "item.duskcarft.duskorite_shovel": "Duskorite Shovel",
@@ -178,8 +187,9 @@
       "item.duskcarft.duskorire_pickaxe": "Duskorire Pickaxe",
       "itemGroup.tabdusk_craft": "Dusk Craft",
       "item.duskcarft.duskorite": "Duskorite",
-      "entity.duskcarft.fungus_mob": "Pantalon",
+      "entity.duskcarft.fungus_mob": "Baby Fungus",
       "item.duskcarft.duskorite_axe": "Duskorite Axe",
+      "item.duskcarft.wendigo_spawn_egg": "Wendigo Spawn Egg",
       "biome.duskcarft.dusk_biome": "Dusk Biome"
     }
   },

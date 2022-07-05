@@ -29,10 +29,12 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
+import net.minecraft.core.particles.ParticleTypes;
 
 import net.mcreator.duskcarft.init.DuskcarftModEntities;
 
@@ -40,7 +42,7 @@ import net.mcreator.duskcarft.init.DuskcarftModEntities;
 public class WendigoEntity extends Monster {
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(MobCategory.AMBIENT).add(new MobSpawnSettings.SpawnerData(DuskcarftModEntities.WENDIGO.get(), 20, 1, 3));
+		event.getSpawns().getSpawner(MobCategory.AMBIENT).add(new MobSpawnSettings.SpawnerData(DuskcarftModEntities.WENDIGO.get(), 20, 1, 1));
 	}
 
 	public WendigoEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -94,6 +96,21 @@ public class WendigoEntity extends Monster {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
 	}
 
+	public void aiStep() {
+		super.aiStep();
+		double x = this.getX();
+		double y = this.getY();
+		double z = this.getZ();
+		Entity entity = this;
+		Level world = this.level;
+		for (int l = 0; l < 6; ++l) {
+			double x0 = x + 0.5 + (random.nextFloat() - 0.5) * 0.7000000014901161D * 20;
+			double y0 = y + 1.2 + (random.nextFloat() - 0.5) * 0.7000000014901161D;
+			double z0 = z + 0.5 + (random.nextFloat() - 0.5) * 0.7000000014901161D * 20;
+			world.addParticle(ParticleTypes.MYCELIUM, x0, y0, z0, 0, 0, 0);
+		}
+	}
+
 	public static void init() {
 		SpawnPlacements.register(DuskcarftModEntities.WENDIGO.get(), SpawnPlacements.Type.NO_RESTRICTIONS, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
 				Mob::checkMobSpawnRules);
@@ -101,10 +118,10 @@ public class WendigoEntity extends Monster {
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.2);
 		builder = builder.add(Attributes.MAX_HEALTH, 14);
 		builder = builder.add(Attributes.ARMOR, 0);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 2);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 4);
 		return builder;
 	}
 }
