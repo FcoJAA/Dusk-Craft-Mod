@@ -1,8 +1,7 @@
 {
-  "item.duskcarft.discmusic_1": "Dusk-001",
   "item.duskcarft.discmusic_1.desc": "...",
+  "item.duskcarft.discmusic_1": "Dusk-001",
   "subtitles.duskmusic1": "",
-  "item.duskcarft.fungus_mob_spawn_egg": "Baby Fungus Spawn Egg",
   "entity.duskcarft.wendigo": "Wendigo",
   "item.duskcarft.duskorite_sword": "Duskorite Sword",
   "item.duskcarft.duskorite_hoe": "Duskorite Hoe",
@@ -12,7 +11,6 @@
   "item.duskcarft.duskorire_pickaxe": "Duskorire Pickaxe",
   "itemGroup.tabdusk_craft": "Dusk Craft",
   "item.duskcarft.duskorite": "Duskorite",
-  "entity.duskcarft.fungus_mob": "Baby Fungus",
   "item.duskcarft.duskorite_axe": "Duskorite Axe",
   "item.duskcarft.wendigo_spawn_egg": "Wendigo Spawn Egg",
   "biome.duskcarft.dusk_biome": "Dusk Biome"

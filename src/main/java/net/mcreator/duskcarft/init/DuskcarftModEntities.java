@@ -17,17 +17,11 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.duskcarft.entity.WendigoEntity;
-import net.mcreator.duskcarft.entity.FungusMobEntity;
 import net.mcreator.duskcarft.DuskcarftMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DuskcarftModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITIES, DuskcarftMod.MODID);
-	public static final RegistryObject<EntityType<FungusMobEntity>> FUNGUS_MOB = register("fungus_mob",
-			EntityType.Builder.<FungusMobEntity>of(FungusMobEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true)
-					.setTrackingRange(16).setUpdateInterval(3).setCustomClientFactory(FungusMobEntity::new)
-
-					.sized(0.6f, 0.7000000000000001f));
 	public static final RegistryObject<EntityType<WendigoEntity>> WENDIGO = register("wendigo",
 			EntityType.Builder.<WendigoEntity>of(WendigoEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(16)
 					.setUpdateInterval(3).setCustomClientFactory(WendigoEntity::new)
@@ -41,14 +35,12 @@ public class DuskcarftModEntities {
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
-			FungusMobEntity.init();
 			WendigoEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
-		event.put(FUNGUS_MOB.get(), FungusMobEntity.createAttributes().build());
 		event.put(WENDIGO.get(), WendigoEntity.createAttributes().build());
 	}
 }

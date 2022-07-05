@@ -38,11 +38,16 @@ import net.minecraft.core.particles.ParticleTypes;
 
 import net.mcreator.duskcarft.init.DuskcarftModEntities;
 
+import java.util.Set;
+
 @Mod.EventBusSubscriber
 public class WendigoEntity extends Monster {
+	private static final Set<ResourceLocation> SPAWN_BIOMES = Set.of(new ResourceLocation("duskcarft:dusk_biome"));
+
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(MobCategory.AMBIENT).add(new MobSpawnSettings.SpawnerData(DuskcarftModEntities.WENDIGO.get(), 20, 1, 1));
+		if (SPAWN_BIOMES.contains(event.getName()))
+			event.getSpawns().getSpawner(MobCategory.AMBIENT).add(new MobSpawnSettings.SpawnerData(DuskcarftModEntities.WENDIGO.get(), 20, 1, 1));
 	}
 
 	public WendigoEntity(PlayMessages.SpawnEntity packet, Level world) {

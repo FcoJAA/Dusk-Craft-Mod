@@ -115,7 +115,11 @@
     "mobSpawningType": "ambient",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 1,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:DuskBiome"
+      }
+    ],
     "spawnInDungeons": false
   }
 }

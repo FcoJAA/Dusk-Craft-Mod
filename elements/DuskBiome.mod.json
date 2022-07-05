@@ -29,7 +29,7 @@
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": ""
+      "value": "ambient.soul_sand_valley.loop"
     },
     "additionsSound": {
       "value": ""
@@ -45,7 +45,7 @@
     "particleToSpawn": {
       "value": "MYCELIUM"
     },
-    "particlesProbability": 2.0,
+    "particlesProbability": 2.4,
     "biomeCategory": "NONE",
     "rainingPossibility": 0.9,
     "temperature": 0.4,
@@ -125,16 +125,16 @@
         },
         "minGroup": 4,
         "maxGroup": 4,
-        "weight": 20,
+        "weight": 10,
         "spawnType": "ambient"
       },
       {
         "entity": {
-          "value": "CUSTOM:FungusMob"
+          "value": "CUSTOM:Wendigo"
         },
-        "minGroup": 4,
-        "maxGroup": 4,
-        "weight": 19,
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 26,
         "spawnType": "creature"
       }
     ]

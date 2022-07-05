@@ -46,8 +46,9 @@ public class DuskBiomeBiome {
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-13434829).waterColor(-16764109).waterFogColor(329011)
 				.skyColor(-13434829).foliageColorOverride(-13421773).grassColorOverride(-13421773)
+				.ambientLoopSound(new SoundEvent(new ResourceLocation("ambient.soul_sand_valley.loop")))
 				.backgroundMusic(new Music(new SoundEvent(new ResourceLocation("ambient.soul_sand_valley.additions")), 12000, 24000, true))
-				.ambientParticle(new AmbientParticleSettings(ParticleTypes.MYCELIUM, 0.02f)).build();
+				.ambientParticle(new AmbientParticleSettings(ParticleTypes.MYCELIUM, 0.024f)).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, PlacementUtils.register("duskcarft:tree_dusk_biome",
 				FeatureUtils.register("duskcarft:tree_dusk_biome", Feature.TREE,
@@ -75,8 +76,8 @@ public class DuskBiomeBiome {
 		BiomeDefaultFeatures.addDefaultExtraVegetation(biomeGenerationSettings);
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder();
 		mobSpawnInfo.addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(EntityType.SHULKER, 1, 1, 1));
-		mobSpawnInfo.addSpawn(MobCategory.AMBIENT, new MobSpawnSettings.SpawnerData(EntityType.CAVE_SPIDER, 20, 4, 4));
-		mobSpawnInfo.addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(DuskcarftModEntities.FUNGUS_MOB.get(), 19, 4, 4));
+		mobSpawnInfo.addSpawn(MobCategory.AMBIENT, new MobSpawnSettings.SpawnerData(EntityType.CAVE_SPIDER, 10, 4, 4));
+		mobSpawnInfo.addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(DuskcarftModEntities.WENDIGO.get(), 26, 1, 1));
 		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).biomeCategory(Biome.BiomeCategory.NONE).temperature(0.4f)
 				.downfall(0.9f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build())
 				.build();
