@@ -191,6 +191,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_garonite"
+    },
+    {
+      "name": "Craft8",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_8"
     }
   ],
   "variable_elements": [],

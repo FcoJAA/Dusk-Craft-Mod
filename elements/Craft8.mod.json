@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Garonite"
+      },
+      {
+        "value": "CUSTOM:Garonite"
+      },
+      {
+        "value": "CUSTOM:Garonite"
+      },
+      {
+        "value": "CUSTOM:Garonite"
+      },
+      {
+        "value": "CUSTOM:Duskorite"
+      },
+      {
+        "value": "CUSTOM:Garonite"
+      },
+      {
+        "value": "CUSTOM:Garonite"
+      },
+      {
+        "value": "CUSTOM:Garonite"
+      },
+      {
+        "value": "CUSTOM:Garonite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlockGaronite"
+    },
+    "name": "craft_8",
+    "namespace": "mod"
+  }
+}
