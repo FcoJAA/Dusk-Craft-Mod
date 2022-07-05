@@ -37,6 +37,9 @@ public class DuskcarftModItems {
 	public static final RegistryObject<Item> FUNGUS_MOB = REGISTRY.register("fungus_mob_spawn_egg",
 			() -> new ForgeSpawnEggItem(DuskcarftModEntities.FUNGUS_MOB, -65485, -10066432,
 					new Item.Properties().tab(DuskcarftModTabs.TAB_DUSK_CRAFT)));
+	public static final RegistryObject<Item> WENDIGO = REGISTRY.register("wendigo_spawn_egg",
+			() -> new ForgeSpawnEggItem(DuskcarftModEntities.WENDIGO, -3355444, -13421824,
+					new Item.Properties().tab(DuskcarftModTabs.TAB_DUSK_CRAFT)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

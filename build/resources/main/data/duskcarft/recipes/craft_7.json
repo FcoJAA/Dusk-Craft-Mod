@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "duskcarft:duskorite"
+    },
+    {
+      "item": "duskcarft:duskorite"
+    },
+    {
+      "item": "duskcarft:duskorite"
+    },
+    {
+      "item": "duskcarft:duskorite"
+    },
+    {
+      "item": "minecraft:jukebox"
+    },
+    {
+      "item": "duskcarft:duskorite"
+    },
+    {
+      "item": "duskcarft:duskorite"
+    },
+    {
+      "item": "duskcarft:duskorite"
+    },
+    {
+      "item": "duskcarft:duskorite"
+    }
+  ],
+  "result": {
+    "item": "duskcarft:discmusic_1",
+    "count": 1
+  }
+}
