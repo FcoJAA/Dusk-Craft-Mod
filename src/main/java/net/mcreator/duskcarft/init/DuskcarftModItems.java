@@ -40,6 +40,7 @@ public class DuskcarftModItems {
 					new Item.Properties().tab(DuskcarftModTabs.TAB_DUSK_CRAFT)));
 	public static final RegistryObject<Item> GARONITE_ORE = block(DuskcarftModBlocks.GARONITE_ORE, DuskcarftModTabs.TAB_DUSK_CRAFT);
 	public static final RegistryObject<Item> GARONITE = REGISTRY.register("garonite", () -> new GaroniteItem());
+	public static final RegistryObject<Item> BLOCK_GARONITE = block(DuskcarftModBlocks.BLOCK_GARONITE, DuskcarftModTabs.TAB_DUSK_CRAFT);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
