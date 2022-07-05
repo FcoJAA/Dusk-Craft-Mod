@@ -29,14 +29,18 @@ public class ModelwendigoMob<T extends Entity> extends EntityModel<T> {
 
 		PartDefinition piernaR = partdefinition.addOrReplaceChild("piernaR",
 				CubeListBuilder.create().texOffs(29, 39)
-						.addBox(-1.0F, 16.0F, -1.0F, 1.0F, 5.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(6, 36)
+						.addBox(-1.0F, 16.0F, -1.0F, 1.0F, 5.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(29, 39)
+						.addBox(0.0F, 16.0F, 1.0F, 1.0F, 5.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(29, 39)
+						.addBox(-3.0F, 16.0F, 1.0F, 1.0F, 5.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(6, 36)
 						.addBox(-2.0F, 11.0F, -1.0F, 2.0F, 5.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 20)
 						.addBox(-1.0F, 0.0F, -1.0F, 2.0F, 11.0F, 2.0F, new CubeDeformation(0.0F)),
 				PartPose.offset(-3.0F, 3.0F, 0.0F));
 
 		PartDefinition piernaL = partdefinition.addOrReplaceChild("piernaL",
 				CubeListBuilder.create().texOffs(18, 39)
-						.addBox(0.0F, 16.0F, -1.0F, 1.0F, 5.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(18, 18)
+						.addBox(-1.0F, 16.0F, -1.0F, 1.0F, 5.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(18, 39)
+						.addBox(0.0F, 16.0F, 1.0F, 1.0F, 5.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(18, 39)
+						.addBox(2.0F, 16.0F, 0.0F, 1.0F, 5.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(18, 18)
 						.addBox(-1.0F, 0.0F, -1.0F, 2.0F, 11.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(34, 20)
 						.addBox(0.0F, 11.0F, -1.0F, 2.0F, 5.0F, 2.0F, new CubeDeformation(0.0F)),
 				PartPose.offset(3.0F, 3.0F, 0.0F));
@@ -99,7 +103,7 @@ public class ModelwendigoMob<T extends Entity> extends EntityModel<T> {
 						.addBox(3.0F, -5.0F, -0.5F, 1.0F, 3.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(38, 10)
 						.addBox(6.0F, -9.0F, -1.5F, 1.0F, 1.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(41, 38)
 						.addBox(-4.0F, -5.0F, -0.5F, 1.0F, 3.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(32, 32)
-						.addBox(-1.0F, -1.0F, -6.5F, 2.0F, 5.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(26, 7)
+						.addBox(-1.0F, 2.0F, -6.5F, 2.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(26, 7)
 						.addBox(-2.0F, -1.0F, -6.5F, 4.0F, 3.0F, 2.0F, new CubeDeformation(0.0F)),
 				PartPose.offset(0.0F, -13.0F, 2.5F));
 

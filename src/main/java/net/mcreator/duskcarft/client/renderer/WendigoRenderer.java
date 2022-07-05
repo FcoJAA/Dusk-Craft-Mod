@@ -10,7 +10,7 @@ import net.mcreator.duskcarft.client.model.ModelwendigoMob;
 
 public class WendigoRenderer extends MobRenderer<WendigoEntity, ModelwendigoMob<WendigoEntity>> {
 	public WendigoRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelwendigoMob(context.bakeLayer(ModelwendigoMob.LAYER_LOCATION)), 0.5f);
+		super(context, new ModelwendigoMob(context.bakeLayer(ModelwendigoMob.LAYER_LOCATION)), 1f);
 	}
 
 	@Override
