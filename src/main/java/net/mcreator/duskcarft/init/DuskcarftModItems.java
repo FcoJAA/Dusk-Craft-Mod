@@ -21,6 +21,7 @@ import net.mcreator.duskcarft.item.DuskoriteItem;
 import net.mcreator.duskcarft.item.DuskoriteHoeItem;
 import net.mcreator.duskcarft.item.DuskoriteAxeItem;
 import net.mcreator.duskcarft.item.DuskorirePickaxeItem;
+import net.mcreator.duskcarft.item.DuskIngotItem;
 import net.mcreator.duskcarft.item.Discmusic1Item;
 import net.mcreator.duskcarft.item.ArmaduraModItem;
 import net.mcreator.duskcarft.DuskcarftMod;
@@ -47,6 +48,7 @@ public class DuskcarftModItems {
 			() -> new ArmaduraModItem.Chestplate());
 	public static final RegistryObject<Item> ARMADURA_MOD_LEGGINGS = REGISTRY.register("armadura_mod_leggings", () -> new ArmaduraModItem.Leggings());
 	public static final RegistryObject<Item> ARMADURA_MOD_BOOTS = REGISTRY.register("armadura_mod_boots", () -> new ArmaduraModItem.Boots());
+	public static final RegistryObject<Item> DUSK_INGOT = REGISTRY.register("dusk_ingot", () -> new DuskIngotItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

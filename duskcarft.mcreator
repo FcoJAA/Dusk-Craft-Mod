@@ -229,6 +229,14 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "DuskIngot",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dusk_ingot"
     }
   ],
   "variable_elements": [],
@@ -253,28 +261,29 @@
   "language_map": {
     "en_us": {
       "item.duskcarft.discmusic_1.desc": "...",
-      "item.duskcarft.discmusic_1": "Dusk-001",
       "subtitles.duskmusic1": "",
-      "item.duskcarft.garonite": "Garonite",
-      "entity.duskcarft.wendigo": "Wendigo",
-      "item.duskcarft.armadura_mod_leggings": "Dusk Leggings",
       "item.duskcarft.duskorite_sword": "Duskorite Sword",
-      "item.duskcarft.duskorite_hoe": "Duskorite Hoe",
-      "item.duskcarft.duskorite_shovel": "Duskorite Shovel",
-      "block.duskcarft.duskorite_ore": "Duskorite Ore",
       "block.duskcarft.block_duskorite": "Block Duskorite",
+      "item.duskcarft.dusk_ingot": "Dusk Ingot",
       "block.duskcarft.garonite_ore": "Garonite Ore",
       "item.duskcarft.duskorire_pickaxe": "Duskorire Pickaxe",
-      "itemGroup.tabdusk_craft": "Dusk Craft",
-      "item.duskcarft.armadura_mod_boots": "Dusk Boots",
       "item.duskcarft.armadura_mod_helmet": "Dusk Helmet",
-      "item.duskcarft.duskorite": "Duskorite",
-      "subtitles.wendigo_sound_1": "",
       "item.duskcarft.duskorite_axe": "Duskorite Axe",
       "item.duskcarft.wendigo_spawn_egg": "Wendigo Spawn Egg",
       "item.duskcarft.armadura_mod_chestplate": "Dusk Body",
-      "block.duskcarft.block_garonite": "Block Duskorite",
-      "biome.duskcarft.dusk_biome": "Dusk Biome"
+      "biome.duskcarft.dusk_biome": "Dusk Biome",
+      "item.duskcarft.discmusic_1": "Dusk-001",
+      "item.duskcarft.garonite": "Garonite",
+      "entity.duskcarft.wendigo": "Wendigo",
+      "item.duskcarft.armadura_mod_leggings": "Dusk Leggings",
+      "item.duskcarft.duskorite_hoe": "Duskorite Hoe",
+      "item.duskcarft.duskorite_shovel": "Duskorite Shovel",
+      "block.duskcarft.duskorite_ore": "Duskorite Ore",
+      "itemGroup.tabdusk_craft": "Dusk Craft",
+      "item.duskcarft.armadura_mod_boots": "Dusk Boots",
+      "item.duskcarft.duskorite": "Duskorite",
+      "subtitles.wendigo_sound_1": "",
+      "block.duskcarft.block_garonite": "Block Duskorite"
     }
   },
   "foldersRoot": {
