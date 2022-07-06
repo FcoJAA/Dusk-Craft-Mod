@@ -183,6 +183,84 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "garonite"
+    },
+    {
+      "name": "BlockGaronite",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_garonite"
+    },
+    {
+      "name": "Craft8",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_8"
+    },
+    {
+      "name": "ArmaduraModHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armadura_mod_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArmaduraMod",
+      "type": "armor",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armadura_mod",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "DuskIngot",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dusk_ingot"
+    },
+    {
+      "name": "DuskMix",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dusk_mix"
+    },
+    {
+      "name": "Craft9",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_9"
+    },
+    {
+      "name": "Craft10",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_10"
     }
   ],
   "variable_elements": [],
@@ -207,23 +285,30 @@
   "language_map": {
     "en_us": {
       "item.duskcarft.discmusic_1.desc": "...",
-      "item.duskcarft.discmusic_1": "Dusk-001",
       "subtitles.duskmusic1": "",
+      "item.duskcarft.duskorite_sword": "Duskorite Sword",
+      "block.duskcarft.block_duskorite": "Block Duskorite",
+      "item.duskcarft.dusk_ingot": "Dusk Ingot",
+      "block.duskcarft.garonite_ore": "Garonite Ore",
+      "item.duskcarft.duskorire_pickaxe": "Duskorire Pickaxe",
+      "item.duskcarft.armadura_mod_helmet": "Dusk Helmet",
+      "item.duskcarft.duskorite_axe": "Duskorite Axe",
+      "item.duskcarft.wendigo_spawn_egg": "Wendigo Spawn Egg",
+      "item.duskcarft.armadura_mod_chestplate": "Dusk Body",
+      "biome.duskcarft.dusk_biome": "Dusk Biome",
+      "item.duskcarft.discmusic_1": "Dusk-001",
       "item.duskcarft.garonite": "Garonite",
       "entity.duskcarft.wendigo": "Wendigo",
-      "item.duskcarft.duskorite_sword": "Duskorite Sword",
+      "item.duskcarft.armadura_mod_leggings": "Dusk Leggings",
+      "item.duskcarft.dusk_mix": "Dusk Mix",
       "item.duskcarft.duskorite_hoe": "Duskorite Hoe",
       "item.duskcarft.duskorite_shovel": "Duskorite Shovel",
       "block.duskcarft.duskorite_ore": "Duskorite Ore",
-      "block.duskcarft.block_duskorite": "Block Duskorite",
-      "block.duskcarft.garonite_ore": "Garonite Ore",
-      "item.duskcarft.duskorire_pickaxe": "Duskorire Pickaxe",
       "itemGroup.tabdusk_craft": "Dusk Craft",
+      "item.duskcarft.armadura_mod_boots": "Dusk Boots",
       "item.duskcarft.duskorite": "Duskorite",
       "subtitles.wendigo_sound_1": "",
-      "item.duskcarft.duskorite_axe": "Duskorite Axe",
-      "item.duskcarft.wendigo_spawn_egg": "Wendigo Spawn Egg",
-      "biome.duskcarft.dusk_biome": "Dusk Biome"
+      "block.duskcarft.block_garonite": "Block Duskorite"
     }
   },
   "foldersRoot": {

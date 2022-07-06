@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "duskcarft:dusk_ingot"
+    },
+    "2": {
+      "item": "duskcarft:dusk_ingot"
+    },
+    "3": {
+      "item": "duskcarft:dusk_ingot"
+    },
+    "4": {
+      "item": "duskcarft:dusk_ingot"
+    },
+    "5": {
+      "item": "duskcarft:dusk_ingot"
+    },
+    "6": {
+      "item": "duskcarft:dusk_ingot"
+    },
+    "7": {
+      "item": "duskcarft:dusk_ingot"
+    },
+    "8": {
+      "item": "duskcarft:dusk_ingot"
+    }
+  },
+  "result": {
+    "item": "duskcarft:armadura_mod_chestplate",
+    "count": 1
+  }
+}

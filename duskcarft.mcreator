@@ -261,6 +261,46 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_10"
+    },
+    {
+      "name": "Craft11",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_11"
+    },
+    {
+      "name": "Craft12",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_12"
+    },
+    {
+      "name": "Craft13",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_13"
+    },
+    {
+      "name": "Craft14",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_14"
+    },
+    {
+      "name": "Craft15",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_15"
     }
   ],
   "variable_elements": [],

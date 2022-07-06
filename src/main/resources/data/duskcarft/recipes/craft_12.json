@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "duskcarft:dusk_ingot"
+    },
+    "1": {
+      "item": "duskcarft:dusk_ingot"
+    },
+    "2": {
+      "item": "duskcarft:dusk_ingot"
+    },
+    "3": {
+      "item": "duskcarft:dusk_ingot"
+    },
+    "5": {
+      "item": "duskcarft:dusk_ingot"
+    }
+  },
+  "result": {
+    "item": "duskcarft:armadura_mod_helmet",
+    "count": 1
+  }
+}

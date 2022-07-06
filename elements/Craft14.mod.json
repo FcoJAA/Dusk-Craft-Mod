@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DuskIngot"
+      },
+      {
+        "value": "CUSTOM:DuskIngot"
+      },
+      {
+        "value": "CUSTOM:DuskIngot"
+      },
+      {
+        "value": "CUSTOM:DuskIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DuskIngot"
+      },
+      {
+        "value": "CUSTOM:DuskIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DuskIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ArmaduraMod.legs"
+    },
+    "name": "craft_14",
+    "namespace": "mod"
+  }
+}
