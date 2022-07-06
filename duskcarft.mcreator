@@ -237,6 +237,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dusk_ingot"
+    },
+    {
+      "name": "DuskMix",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dusk_mix"
+    },
+    {
+      "name": "Craft9",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_9"
+    },
+    {
+      "name": "Craft10",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_10"
     }
   ],
   "variable_elements": [],
@@ -276,6 +300,7 @@
       "item.duskcarft.garonite": "Garonite",
       "entity.duskcarft.wendigo": "Wendigo",
       "item.duskcarft.armadura_mod_leggings": "Dusk Leggings",
+      "item.duskcarft.dusk_mix": "Dusk Mix",
       "item.duskcarft.duskorite_hoe": "Duskorite Hoe",
       "item.duskcarft.duskorite_shovel": "Duskorite Shovel",
       "block.duskcarft.duskorite_ore": "Duskorite Ore",

@@ -1,13 +1,13 @@
 {
-  "minecraft:recipes/transportation/acacia_boat": {
+  "minecraft:recipes/decorations/campfire": {
     "criteria": {
-      "in_water": "2022-07-05 20:13:21 +0200"
+      "has_coal": "2022-07-06 10:29:28 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/oak_boat": {
+  "minecraft:recipes/decorations/smoker": {
     "criteria": {
-      "in_water": "2022-07-05 20:13:21 +0200"
+      "has_furnace": "2022-07-06 10:29:24 +0200"
     },
     "done": true
   },
@@ -29,6 +29,36 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2022-07-06 10:29:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2022-07-05 20:24:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2022-07-05 20:13:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2022-07-05 20:13:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2022-07-06 10:29:28 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2022-07-05 20:13:21 +0200"
@@ -47,12 +77,6 @@
       "minecraft:plains": "2022-07-05 20:11:26 +0200"
     },
     "done": false
-  },
-  "minecraft:story/root": {
-    "criteria": {
-      "crafting_table": "2022-07-05 20:24:54 +0200"
-    },
-    "done": true
   },
   "DataVersion": 2975
 }

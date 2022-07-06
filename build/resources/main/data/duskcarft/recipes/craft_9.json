@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "duskcarft:duskorite"
+    },
+    "1": {
+      "item": "duskcarft:duskorite"
+    },
+    "2": {
+      "item": "duskcarft:garonite"
+    },
+    "3": {
+      "item": "duskcarft:garonite"
+    }
+  },
+  "result": {
+    "item": "duskcarft:dusk_mix",
+    "count": 1
+  }
+}
