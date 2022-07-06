@@ -16,6 +16,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.duskcarft.procedures.ArmaduraModHelmetTickEventProcedure;
+import net.mcreator.duskcarft.procedures.ArmaduraModBootsTickEventProcedure;
 import net.mcreator.duskcarft.init.DuskcarftModTabs;
 import net.mcreator.duskcarft.init.DuskcarftModItems;
 
@@ -110,6 +111,11 @@ public abstract class ArmaduraModItem extends ArmorItem {
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "duskcarft:textures/models/armor/armaduramod_layer_1.png";
+		}
+
+		@Override
+		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
+			ArmaduraModBootsTickEventProcedure.execute(entity);
 		}
 	}
 }

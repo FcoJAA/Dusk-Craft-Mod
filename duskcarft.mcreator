@@ -301,6 +301,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_15"
+    },
+    {
+      "name": "Craft16",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_16"
+    },
+    {
+      "name": "ArmaduraModBootsTickEvent",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armadura_mod_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
